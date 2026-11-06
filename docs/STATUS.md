@@ -13,8 +13,8 @@
 - Latest pass: Arc Pistol, independent magazines/reload cancellation, server bank-shot reflection, aim zoom/recoil, hit/headshot/elimination/incoming-damage feedback, arena mirrors and team signs. Production client remotes verified Arc switch (8 ammo), bank shot (40 damage, 7 ammo, BANK SHOT HUD), canceled-reload swap (still 7), keyboard 1 selection, and Pulse shot stopping at mirror (target unchanged, primary ammo 23). Build and strict analysis pass.
 - Latest full two-client rerun remains inconclusive under the updated Studio: one run reached bank-shot/scoring assertions then hit an avatar respawn timing failure; later runs had avatar/protection setup timing or returned no result. Diagnostic now waits for SpawnReady and protection expiry; do not claim a fresh full-suite pass. Prior baseline multiplayer pass remains documented above. Temporary test script and solo fixtures removed; Studio left in Edit mode.
 - Limits: prototype art, one map, session-only stats, no saved progression or matchmaking, no lag compensation; mobile/gamepad layouts and internet latency still need dedicated tests. Not published.
-- User authorized GitHub push. No remote is configured; destination URL has been requested. Git identity is configured. Local generated place is in ignored build/; source is retained. Save Studio-authored art separately.
+- User authorized GitHub push to https://github.com/Fineturkey/Giraffee. Origin uses that repository; active branch is main. Initial implementation commit: 8dad6fa. Local generated place is in ignored build/; source is retained. Save Studio-authored art separately.
 
 ## Next bounded work
 
-Finish a stable full multiplayer rerun on the updated Studio, then user playtests bank shots with a friend. GitHub push is authorized but waiting on a repository URL (no origin remote). No recurring/background tasks scheduled.
+Finish a stable full multiplayer rerun on the updated Studio, then user playtests bank shots with a friend. No recurring/background tasks scheduled.
