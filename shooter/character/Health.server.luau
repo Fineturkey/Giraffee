@@ -1,0 +1,3 @@
+--!strict
+-- Replaces Roblox's default regenerating Health script.
+-- Crossfire players recover on respawn, so hit-to-elimination counts stay predictable.

@@ -1,0 +1,14 @@
+{
+  "name": "Neon Crossfire",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": { "Shared": { "$path": "shooter/shared" } },
+    "ServerScriptService": { "Server": { "$path": "shooter/server" } },
+    "StarterPlayer": {
+      "$properties": { "CameraMode": "LockFirstPerson" },
+      "StarterCharacterScripts": { "$path": "shooter/character" },
+      "StarterPlayerScripts": { "Client": { "$path": "shooter/client" } }
+    },
+    "Workspace": { "$className": "Workspace", "$ignoreUnknownInstances": true }
+  }
+}

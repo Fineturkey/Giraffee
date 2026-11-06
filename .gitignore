@@ -1,0 +1,10 @@
+# Generated Roblox place files and local tooling
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+node_modules/
+.DS_Store
+build/
+sourcemap.json
+*.log
